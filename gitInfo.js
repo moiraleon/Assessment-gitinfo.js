@@ -49,8 +49,8 @@ const init = {
 */
 
 const clone = {
-    description: ` make a copy of the existing repo`,
-     code:`git clone`,
+    description: ` make a copy of an existing repo on github and store to local machine `,
+     code:`git clone url`,
    }
 //////////////////PROBLEM 5////////////////////
 /*
@@ -80,7 +80,7 @@ const add = {
 
 const commit = {
     description: `creates a snapshot of your repository`,
-     code:`git commit`,
+     code:`git commit -m`,
    }
 
 //////////////////PROBLEM 8////////////////////
