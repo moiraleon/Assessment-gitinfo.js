@@ -8,17 +8,22 @@
     Create a variable called 'gitDefinition'.
     It should be a string containing your best definition of what Git is.
 */
+// OOPS I MADE A FUNCTION
+function gitDefinition(date, newdef) {
+    return (`${date} my best definition of git is ${newdef}.`)
+  }
+  gitDefinition(`Friday July 2nd`, `it is a software for tracking changes in any set of files`)
 
-//CODE HERE
 
+//   HERE IS MY VAR
+var gitdefinition =(`A software for tracking changes in any set of files`) 
 //////////////////PROBLEM 2////////////////////
 /*
     Create a variable called 'gitHubDefinition'.  
     It should be a string containing your best definition of what GitHub is.
 */
 
-//CODE HERE
-
+var gitHubDefinition =(`A server for hosting, monitoring, and modifying files using git`) 
 //////////////////PROBLEMS 3 - 8////////////////////
 /*
     For the next several problems you will be creating objects containing information about different git 
@@ -33,16 +38,20 @@
     following the guidelines above to describe the init command.
 */
 
-//CODE HERE
-
+const init = {
+    `description`: ` create a new GIT repository`
+     `code`:`git init`
+   }
 //////////////////PROBLEM 4////////////////////
 /*
     Create an object called 'clone' with 'description' and 'code' properties 
     following the guidelines above to describe the clone command.
 */
 
-//CODE HERE
-
+const clone = {
+    `description`: ` make a copy of the existing repo`
+     `code`:`git clone`
+   }
 //////////////////PROBLEM 5////////////////////
 /*
     Create an object called 'status' with 'description' and 'code' properties 
