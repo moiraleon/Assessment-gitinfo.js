@@ -39,8 +39,8 @@ var gitHubDefinition =(`A server for hosting, monitoring, and modifying files us
 */
 
 const init = {
-    `description`: ` create a new GIT repository`
-     `code`:`git init`
+    description: ` create a new GIT repository`,
+     code:`git init`,
    }
 //////////////////PROBLEM 4////////////////////
 /*
@@ -49,8 +49,8 @@ const init = {
 */
 
 const clone = {
-    `description`: ` make a copy of the existing repo`
-     `code`:`git clone`
+    description: ` make a copy of the existing repo`,
+     code:`git clone`,
    }
 //////////////////PROBLEM 5////////////////////
 /*
@@ -58,24 +58,30 @@ const clone = {
     following the guidelines above to describe the status command.
 */
 
-//CODE HERE
-
+const status = {
+    description: `outputs information about your local repository`,
+     code:`status`,
+   }
 //////////////////PROBLEM 6////////////////////
 /*
     Create an object called 'add' with 'description' and 'code' properties 
     following the guidelines above to describe the add command.
 */
 
-//CODE HERE
-
+const add = {
+    description: ` create a new file, subdirectory, or update an existing file.`,
+     code:`git add`,
+   }
 //////////////////PROBLEM 7////////////////////
 /*
     Create an object called 'commit' with 'description' and 'code' properties
     following the guidelines above to describe the commit command.
 */
 
-//CODE HERE
-
+const commit = {
+    description: `creates a snapshot of your repository`,
+     code:`git commit`,
+   }
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -83,4 +89,7 @@ const clone = {
     following the guidelines above to describe the push command.
 */
 
-//CODE HERE
+const push = {
+    description: ` transfers the commit to GitHub`,
+     code:`git push`,
+   }
